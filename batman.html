@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Batman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "main.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Batman Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">What super villain once broke Batman's back, leaving him crippled and wheelchair-bound?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">What was the name of Bruce's parents?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Thomas & Martha"> Thomas & Martha<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Wayne & Alice"> Wayne & Alice<br>
+    
+    <p class = "questions">Who is credited with creating Batman?</p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "Jerry Siegel"> Jerry Siegel<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Bob Kane"> Bob Kane<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body>
+    
+
+  
