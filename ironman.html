@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ironman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "ironman.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Ironman Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">What is Iron Man's alter ego?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">What is Tony Stark's business empire called? </p>
+    <input type = "radio" id = "mc" name = "question2" value = "Stark Limited">Stark Limited<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Stark Industries">Stark Industries<br>
+    
+    <p class = "questions">What is Virginia Potts nickname? </p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "Lucky">Lucky <br>
+    <input type = "radio" id = "mc" name = "question3" value = "Pepper"> Pepper<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body>
