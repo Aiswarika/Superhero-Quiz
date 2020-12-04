@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "thor.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Thor Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">Which Actor Plays Thor?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">Where Is Thor From? </p>
+    <input type = "radio" id = "mc" name = "question2" value = "asgard">Asgard<br>
+    <input type = "radio" id = "mc" name = "question2" value = "midgard">Midgard<br>
+    
+    <p class = "questions">Who Is Thor's Sister? </p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "Viper"> Viper <br>
+    <input type = "radio" id = "mc" name = "question3" value = "Hela"> Hela<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body>

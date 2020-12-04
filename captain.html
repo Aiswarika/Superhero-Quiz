@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captain America</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "captain.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Captain America Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">What symbol is on Captain America's shield? </p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">Captain America is...</p>
+    <input type = "radio" id = "mc" name = "question2" value = "a Marvel charecter"> a Marvel charecter<br>
+    <input type = "radio" id = "mc" name = "question2" value = "a DC comics charecter">a DC comics charecter<br>
+    
+    <p class = "questions">What's Captain America's real name? </p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "Gwen Stacy"> Gwen Stacy <br>
+    <input type = "radio" id = "mc" name = "question3" value = "Steve Rogers"> Steve Rogers<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body>

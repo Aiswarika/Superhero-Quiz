@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwidow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src = "blackwidow.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Blackwidow Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">What Alias Did Black Widow Use As Tony Stark's Assistant In Iron Man 2?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">Where Was Black Widow Originally From? </p>
+    <input type = "radio" id = "mc" name = "question2" value = "The US">The US<br>
+    <input type = "radio" id = "mc" name = "question2" value = "The U.S.S.R.">The U.S.S.R.<br>
+    
+    <p class = "questions">Why Can't Black Widow Have Children? </p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "She was sterilized"> She was sterilized <br>
+    <input type = "radio" id = "mc" name = "question3" value = "She was born sterile"> She was born sterile<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body>
